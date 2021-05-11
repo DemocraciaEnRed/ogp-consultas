@@ -109,28 +109,30 @@
   padding-right: 0
   height: header-height
   box-shadow: 0 2px 2px rgba(#000, .2)
-  color: $main-color
-  background-color: #fff
+  color: white
+  background-color: $main-color
 
   .header-item.active .header-link,
   .header-link:hover
-    color: #fff
-    background-color: $primary-color
+    color: white
+    background-color: $main-link-color-hover
 
   .header-link
     padding-left: 15px
     padding-right: 15px
     height: header-height
-    color: $main-color
-    font-weight: 500
+    color: white
+    font-weight: 100
     font-size: 15px
     height: 43px;
     line-height: header-height
     margin-top: 15px;
     line-height: 43px;
     &.anon-user
-      background-color: $primary-color
+      background-color: #000
       color: white
+      &:hover
+        background-color: $main-link-color-hover
 
   .logo
     margin: 12px 0 0 0
