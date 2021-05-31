@@ -17,7 +17,7 @@ export default class HelpLayout extends PureComponent {
       path: '/ayuda/como-funciona'
     },
     {
-      title: 'Acerca de este sitio',
+      title: 'About this site',
       Content: () => <Content content={articles.acerca} />,
       slug: 'acerca',
       path: '/ayuda/acerca'

@@ -6,22 +6,23 @@
 .searchbar
   display:flex
   justify-content:center
+  align-items: center;
   input
     width:60%
     max-width: 355px
-    height:40px
-    margin-bottom:5px
-    outline: 0
-    &:hover
-      outline: 0
+    padding: 8px;
+    outline: none
+    border: none
+    &:focus
+      outline: none
   button
     width:10%
     min-width: 65px
-    height:40px
-    background:$primary-color
-    color: #fff
+    padding: 8px 0;
+    background: #D1D2D3
+    color: #333
     border: 0
-
+    cursor: pointer
 .advancedsearch
   padding:20px
   display:flex
