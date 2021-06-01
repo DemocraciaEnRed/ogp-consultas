@@ -33,8 +33,8 @@
     color: #000
     .forum-card-header
       .forum-card-title
-        font-size: 21px
-        font-weight: 400
+        font-size: 24px
+        font-weight: bold
         line-height: 37px
         margin: 0
         @media screen and (max-width: 750px)
@@ -48,13 +48,18 @@
 
     .forum-card-body
       .forum-card-description
-        font-size: 17px
-        font-weight: 300
+        font-size: 16px
+        font-weight: 400
         color: #595959
 
     .forum-card-footer
-      .btn.btn-link
+      .btn
+        background-color: black;
+        color: white;
         text-decoration: none !important
+        &:hover
+          background-color: #0099FF;
+          color: white
 
   &:before
     content: ''
