@@ -88,7 +88,7 @@ class CommentContainer extends Component {
         })
     }).then(res => res.ok && res.json())
       .then(res => {
-        this.props.showNotifyChanges('Respuesta guardada')
+        this.props.showNotifyChanges('Reply saved')
         this.props.updateAll()
       })
       .catch(err => {
@@ -112,9 +112,9 @@ class CommentContainer extends Component {
     }).then(res => res.json())
       .then(res => {
         if(res.error && res.error.code === 'NO_AUTO_FLAG'){
-          this.props.showNotifyChanges('No podes marcar tu propio comentario como Spam')
+          this.props.showNotifyChanges('You cannot mark your own comment as SPAM')
         } else {
-        this.props.showNotifyChanges('Comentario marcado como Spam')
+        this.props.showNotifyChanges('Comment marked as SPAM')
         this.props.updateAll()
         }
       })
@@ -137,7 +137,7 @@ class CommentContainer extends Component {
         }
     }).then(res => res.ok && res.json())
       .then(res => {
-        this.props.showNotifyChanges('Comentario eliminado')
+        this.props.showNotifyChanges('Deleted comment')
         this.props.updateAll()
       })
       .catch(err => {
@@ -159,7 +159,7 @@ class CommentContainer extends Component {
         }
     }).then(res => res.ok && res.json())
       .then(res => {
-        this.props.showNotifyChanges('Respuesta eliminada')
+        this.props.showNotifyChanges('Response deleted')
         this.props.updateAll()
       })
       .catch(err => {
@@ -182,7 +182,7 @@ class CommentContainer extends Component {
         }
     }).then(res => res.ok && res.json())
       .then(res => {
-        this.props.showNotifyChanges('Comentario dejo de marcarse como spam')
+        this.props.showNotifyChanges('Comment no longer in spambox')
         this.props.updateAll()
       })
       .catch(err => {
@@ -258,7 +258,7 @@ markComment(mark){
         })
     }).then(res => res.ok && res.json())
       .then(res => {
-        this.props.showNotifyChanges(`El comentario se marcó como ${mark}`)
+        this.props.showNotifyChanges(`Comment marked as ${mark}`)
         this.props.updateAll()
       })
       .catch(err => {
@@ -283,7 +283,7 @@ markComment(mark){
         })
     }).then(res => res.ok && res.json())
       .then(res => {
-        this.props.showNotifyChanges(`Se quitó el marcado #${mark} del comentario`)
+        this.props.showNotifyChanges(`#${mark} removed from comment`)
         this.props.updateAll()
       })
       .catch(err => {
@@ -312,7 +312,7 @@ markComment(mark){
           <div className="reply-comment-container">
             <textarea className="form-control" rows="3" onChange={this.handleTextChange} 
             maxLength='4096' minLength='1' placeholder="Escriba su respuesta..."></textarea>
-            <button className="btn btn-xs btn-primary pull-right" onClick={this.submitReply}>Responder</button>
+            <button className="btn btn-xs btn-primary pull-right" onClick={this.submitReply}>Reply</button>
             <button className="btn btn-xs btn-default pull-left" onClick={this.closeReply}>X</button>
           </div>
           }
@@ -326,36 +326,36 @@ markComment(mark){
           <div className="media-body">
           <p className="comment-text"><b>{comment.author.displayName}</b>
           {
-            this.isOfficial(comment.author) && <span className="text-primary"><b>&nbsp;&nbsp;★ Cuenta oficial</b></span>
+            this.isOfficial(comment.author) && <span className="text-primary"><b>&nbsp;&nbsp;★ Official account</b></span>
           }
           &nbsp;&nbsp;
           {comment.text}</p>
           </div>
         </div>
           <div className="actions">
-            <a className="anchor" onClick={this.toggleReply}>↵ Responder</a>
+            <a className="anchor" onClick={this.toggleReply}>↵ Reply</a>
             {
               this.state.meFlaggedIt ?
-               <a className="anchor" onClick={this.unmarkFlag}>⚑ Quitar spam</a>
-               : <a className="anchor" onClick={this.markFlag}>⚑ Marcar como spam</a>
+               <a className="anchor" onClick={this.unmarkFlag}>⚑ Remove from spam</a>
+               : <a className="anchor" onClick={this.markFlag}>⚑ Mark as spam</a>
 
             }
-            <a className="anchor" onClick={this.deleteComment}>✗ Eliminar</a>
+            <a className="anchor" onClick={this.deleteComment}>✗ Delete</a>
           </div>
           {
             comment.replies.map( r => (
               <div className="reply-container">
                 <p className="reply-text"><b>{r.author.displayName}</b>
                 {
-                  this.isOfficial(r.author) && <span className="text-primary"><b>&nbsp;&nbsp;★ Cuenta oficial</b></span>
+                  this.isOfficial(r.author) && <span className="text-primary"><b>&nbsp;&nbsp;★ Oficial account</b></span>
                 }
-                &nbsp;&nbsp;{r.text} - <a className="delete-anchor" onClick={() => this.deleteReply(r._id)}>✗ Eliminar</a></p>
+                &nbsp;&nbsp;{r.text} - <a className="delete-anchor" onClick={() => this.deleteReply(r._id)}>✗ Delete</a></p>
               </div>
               )
             )
           }
           <div className="markers">
-            <p>Marcar comentario como...</p>
+            <p>Mark comment as...</p>
             {
               availableMarks.map( m => {
                 if(comment.adminMarks.includes(m)){
@@ -368,16 +368,16 @@ markComment(mark){
           
         </div>
         <div className="info-comment">
-        Publicado el {(new Date(comment.createdAt)).toLocaleString()} - {comment.replies.length} Respuestas - {comment.score} Puntos&nbsp;&nbsp;
+        Published on {(new Date(comment.createdAt)).toLocaleString()} - {comment.replies.length} answers - {comment.score} Points&nbsp;&nbsp;
         {
           this.state.answeredByOficial ?
-          <span className="badge-answered">✔ Contestado por un oficial</span>
-          : <span className="badge-not-answered">✖ Sin contestar por un oficial</span>
+          <span className="badge-answered">✔ Answered by staff</span>
+          : <span className="badge-not-answered">✖ unanswered by staff</span>
 
         }
         {
           this.state.flagedByOficial &&
-          <span className="badge-not-answered">⚑ Marcado SPAM por un oficial</span>
+          <span className="badge-not-answered">⚑ Marked as SPAM by staff</span>
         }
         {
           comment.adminMarks && comment.adminMarks.length > 0 && (
