@@ -5,9 +5,9 @@ const models = require('lib/backend/models')()
 const Forum = models.Forum
 
 const attrPregunta = {
-  'name' : 'pregunta', 
-  'title' : 'Pregunta a definir con la consulta', 
-  'description' : 'Colocar aquí la pregunta que será definida en el eje de la consulta', 
+  'name' : 'Question', 
+  'title' : 'Question to define with the consultation', 
+  'description' : 'Set the question for the consultation', 
   'mandatory' : false, 
   'kind' : 'String'
 }

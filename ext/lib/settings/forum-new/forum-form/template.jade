@@ -31,8 +31,8 @@ main.container
             label= t('forum.form.contentType.label')
             .form-group.clearfix.contentType            
               select.input-group(name='contentType', value='ejes', validate='required')
-                option(value='ejes')= 'Ejes de consulta'
-                option(value='propuestas')= 'Propuestas'
+                option(value='ejes')= 'Topics'
+                option(value='propuestas')= 'Proposals'
                 option(value='llamado')= t('forum.form.contentType.llamado')
 
           fieldset.sugerencia
@@ -51,7 +51,7 @@ main.container
               input(type='text', name='cover', placeholder= t('admin-topics-form.placeholder.cover'), validate='url')
 
           fieldset
-            label= 'Fecha de cierre'
+            label= 'Closing date'
             .form-group.clearfix.summary
               input(type='date', name='closingAt', maxlength=12, validate='max-length:12')
 

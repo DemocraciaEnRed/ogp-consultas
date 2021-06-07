@@ -371,13 +371,13 @@ markComment(mark){
         Published on {(new Date(comment.createdAt)).toLocaleString()} - {comment.replies.length} answers - {comment.score} Points&nbsp;&nbsp;
         {
           this.state.answeredByOficial ?
-          <span className="badge-answered">✔ Answered by staff</span>
-          : <span className="badge-not-answered">✖ unanswered by staff</span>
+          <span className="badge-answered">✔ Answered by official users</span>
+          : <span className="badge-not-answered">✖ unanswered by official users</span>
 
         }
         {
           this.state.flagedByOficial &&
-          <span className="badge-not-answered">⚑ Marked as SPAM by staff</span>
+          <span className="badge-not-answered">⚑ Marked as SPAM by official users</span>
         }
         {
           comment.adminMarks && comment.adminMarks.length > 0 && (

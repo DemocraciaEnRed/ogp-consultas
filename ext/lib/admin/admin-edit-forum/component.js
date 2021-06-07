@@ -208,7 +208,7 @@ export default class EditForum extends Component {
               </div>
             </fieldset>
             <fieldset>
-              <label>Fecha de cierre</label>
+              <label>Ending date</label>
               <div className='form-group clearfix'>
                 <input
                   name='closingAt'
