@@ -16,16 +16,16 @@ module.exports = ({
   lang
 }) => emailTemplate({
   body: html`
-    <p>Hola <strong>${userName}</strong>,</p>
-    <p>El usuario <strong>${comment.author.fullName}</strong> comentó en <strong>${topicTitle}</strong>:</p>
+    <p>Hello <strong>${userName}</strong>,</p>
+    <p>The user <strong>${comment.author.fullName}</strong> commented on <strong>${topicTitle}</strong>:</p>
     <div style='padding:15px;border-radius: 5px;'><i>${comment.text}</i></div>
     <br />
     ${buttonTemplate({
       url: url,
-      text: 'Ver comentario'
+      text: 'See comment'
     })}
-    <p>Saludos,<br /><strong>${config.organizationName}</strong></p>
-    <p style='font-size:12px'><i>Si el botón de "Ver comentario" no funciona, copiá y pegá el siguiente link en tu navegador: <a href="${url}" target="_blank">${url}</a></i></p>
+    <p><br /><strong>${config.organizationName}</strong></p>
+    <p style='font-size:12px'><i>If the button "See comment" doesnt work, copy and paste this address in your browser <a href="${url}" target="_blank">${url}</a></i></p>
 
   `
 })

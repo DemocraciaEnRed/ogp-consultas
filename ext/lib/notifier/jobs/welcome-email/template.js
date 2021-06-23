@@ -16,14 +16,14 @@ module.exports = ({
   validateUrl
 }) => emailTemplate({
   body: html`
-    <p>Hola <strong>${userName}</strong>,</p>
-    <p>Ha iniciado el proceso de registro para participar en <strong>${config.organizationName}</strong>. Haz click para validar tu usuario y terminar de registrarte:</p>
+    <p>Hello <strong>${userName}</strong>,</p>
+    <p>You started a registration proccess in <strong>${config.organizationName}</strong>. validate your user and finish registration here:</p>
     ${buttonTemplate({
       url: validateUrl,
-      text: 'Validar mi cuenta'
+      text: 'Validate account'
     })}
-    <p>Muchas gracias, ¡Te esperamos!</p>
-    <p style='font-size:12px'><i>Si el botón de "Validar mi cuenta" no funciona, copiá y pegá el siguiente link en tu navegador: <a href="${validateUrl}" target="_blank">${validateUrl}</a></i></p>
-    <p style='font-size:12px'><i>PD: Si no ha creado una cuenta en <a href="${baseUrl}" target="_blank">${baseUrl}</a> no se requiere ninguna acción adicional.</i></p>
+    <p>Thank you!</p>
+    <p style='font-size:12px'><i>if the "Validate account" button doesnt work, copy and paste the validation url in a new browser tab: <a href="${validateUrl}" target="_blank">${validateUrl}</a></i></p>
+    <p style='font-size:12px'><i>PD: If you didnt create an account in <a href="${baseUrl}" target="_blank">${baseUrl}</a>. this action is not required.</i></p>
   `
 })
