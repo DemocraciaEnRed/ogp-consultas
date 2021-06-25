@@ -19,7 +19,7 @@ const overrides = {
 
   'templates.topic-published.subject': 'New topic!',
   'templates.topic-published.body': 'A new topic has ben created:',
-  'templates.topic-published.body2': 'Please, <a href=\"{url}\">Click Here</a> to check it out.'
+  'templates.topic-published.body2': 'Please, <a href=\"{url}\">Click Here</a> to check it.'
 }
 
 Object.assign(t.es, overrides)
