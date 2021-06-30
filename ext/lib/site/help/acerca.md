@@ -1,8 +1,8 @@
 # About this site
 
-Consultas Digitales es una plataforma de código abierto, de fácil instalación y personalizable que busca favorecer la participación, el debate y la interacción entre entidades y personas sobre diversas temáticas. Su versatilidad permite el uso por parte tanto de organismos estatales como entes de la sociedad civil.
+Digital Consultations is an open source platform, easy to install and customizable, which encourages participation, debate and interaction between entities and individuals on various topics. Its versatility allows its use by both government agencies and civil society entities.
 
-Esta herramienta fue pensada por Democracia en Red, una organización argentina fundada en 2014 con el objetivo de crear soluciones de participación ciudadana con gobiernos y activistas para fortalecer la democracia. Consultas digitales busca ser parte de un proceso de apertura en las instituciones públicas y los procesos de toma de decisión para recuperar la política a partir de diagnósticos que apuntan a la acción. En este sentido, la herramienta permite la participación de la ciudadanía para debatir, informarse y votar sobre diferentes temáticas.
+This tool was designed by Democracia en Red, an Argentine organization founded in 2014 with the aim of creating solutions for citizen participation with governments and activists to strengthen democracy. Digital Consultations seeks to be part of a process of openness in public institutions and decision-making processes to recover politics based on diagnoses that point to action. In this sense, the tool allows the participation of citizens to debate, be informed and vote on different issues.
 
 ## Contact
 
