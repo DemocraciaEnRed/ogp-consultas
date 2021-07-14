@@ -11,7 +11,7 @@ import Stats from './stats/component'
 export default class HelpLayout extends PureComponent {
   articles = [
     {
-      title: '¿Cómo funciona?',
+      title: 'How does it works?',
       Content: () => <Content content={articles.como} />,
       slug: 'como-funciona',
       path: '/ayuda/como-funciona'
@@ -23,7 +23,7 @@ export default class HelpLayout extends PureComponent {
       path: '/ayuda/acerca'
     },
         {
-      title: 'Estadísticas',
+      title: 'Stadistics',
       Content: Stats,
       slug: 'estadisticas',
       path: '/ayuda/estadisticas'

@@ -9,7 +9,7 @@ const overrides = {
   'templates.email.greeting': 'Hello {userName},',
   'templates.email.signature': `${config.organizationName} - ${config.bajadaPlataforma}`,
 
-  'templates.welcome-email.subject': 'Welcome to ' + config.organizationName,
+  'templates.welcome-email.subject': config.organizationName + ' We welcome you! These are your credentials',
   'templates.welcome-email.body': `You started the registration process in <a href="${homeUrl}">${config.organizationName}</a>.<br><br> click  <a href=\"{validateUrl}\">HERE</a> to verify your email`,
   'templates.welcome-email.ps': 'En caso de no haberte registrado, por favor ignorá este correo.  ',
 

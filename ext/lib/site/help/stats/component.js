@@ -56,7 +56,7 @@ export default class Stats extends PureComponent {
     return (
       <div className="stats">
         <div className="forums-total-container clearfix">
-          <div className="data-title text-center">Total of forums</div>
+          <div className="data-title text-center">Total of consultations</div>
           <div className="data-value text-center">{this.state.countForums}</div>
         </div>
         <br/>
