@@ -1,56 +1,47 @@
 # ¿Cómo Funciona?
 
-* [¿Cómo crear un usuario?](#crear-usuario)
-* [¿Cómo configurar tu perfil?](#configurar-perfil)
-* [¿Cómo está estructurado el sitio?](#estructura-del-sitio)
-* [¿Cómo participo?](#participacion)
-* [¿Cómo puedo compartir una consulta?](#compartir-consulta)
+* [How can I create a user?](#create-user)
+* [How is the site structured?](#site-structure)
+* [How do I participate?](#how-to-participate)
+* [How to set up your profile?](#set-your-profile)
 
-### ¿Cómo crear un usuario? <a name="crear-usuario"></a>
-Hacer click en la opción **“ingresar”**, ubicada en la parte superior derecha de la pantalla. Para registrarte, debes elegir la opción **“registrarse”**, completar tus datos y enviar el formulario. Luego, recibirás un mail en tu correo electrónico con un link para validar tu usuario. Una vez validado, podés participar. 
+### How can I create a user? <a name="create-user"></a>
 
-![Imagen](/ext/lib/site/help/register.png)
+1. Click on the [register](https://form.typeform.com/to/LoV6Qr27?typeform-medium=embed-snippet) tab, located on the central right side of the home screen.
+2. A form will be displayed, you must register by filling in your personal information. To finish your registration, submit the form and click on "register". 
+3. OGP’s Participation and Co-Creation Standards team will review your application. This process may take a couple of days. 
+4. If your application is accepted, you will be admitted to the community. You will receive an email with a link to validate your user, click there.
+5. In case you don't receive it, check your spam box.
+6. You can participate now!
 
-### ¿Cómo configurar tu perfil? <a name="configurar-perfil"></a>
-Una vez registrada/o, en la parte superior derecha de la pantalla aparecerá tu nombre de usuario. Con un click sobre tu nombre, aparecerá un menú desplegable.
 
-![Imagen](/ext/lib/site/help/user-button.png)   
-![Imagen](/ext/lib/site/help/user-dropdown.png)
+### How is the site structured? <a name="site-structure"></a>
 
-En **"Notificaciones”**, podés determinar las preferencias de las notificaciones y en **“Configuración”** definir tus __datos personales__ (nombre, apellido), modificar tu __contraseña__ y agregar un __foto de perfil__. Para tener una foto de perfil hay que pegar la URL de una imagen tuya. La forma más sencilla de hacerlo es ir a cualquier de tus redes sociales y en la foto que quieras, hacer click derecho y seleccionar “copiar URL de la imagen”. Otra forma de hacerlo es subir alguna imagen a un servidor (como por ejemplo <a target="_blank" href="https://es.imgbb.com/">https://es.imgbb.com/</a> ) y hacer el mismo proceso.
+On the site you can find **consultations**. **Consultations** are **initiatives open to citizen participation** through comments and actions.
+The consultations are composed by **topics or proposals** that involve different aspects of the topic open **to debate**. 
 
-### ¿Cómo está estructurado el sitio? <a name="estructura-del-sitio"></a>
-En el sitio se tratan temas e iniciativas, abiertas a la participación de la ciudadanía a través de comentarios y acciones. A estos temas e iniciativas las llamamos “Consulta”. 
+You will be able to participate in each **topic or proposal** for a predetermined period of time.
+Users can upload their **proposals or ideas** through **calls for proposals**.
 
-Las consultas se muestran por los filtros de “nuevas”, “relevantes” y “finalizadas”. La consulta está dividida en **ejes**, que comprenden distintos aspectos del tema abierto a debate. Se puede ingresar a los ejes directamente desde la pantalla principal. 
+### How do I participate? <a name="how-to-participate"></a>
 
-![Imagen](/ext/lib/site/help/consultas-search.png)   
-![Imagen](/ext/lib/site/help/consulta-topics.png)
+Within each axis or proposal published, you will find a space to make **comments, debate and exchange views** with other users.
+In some cases, the topics or proposals invite you to take one of the following actions:
 
-Para ver la consulta completa y todos los ejes elegí **“ver más información”**, donde hay una descripción y explicación de la consulta. 
+* **Support**: allows you to give a support or "like". <img src="/ext/lib/site/help/icon-suport.png" style="display:inline-block" width="20">. 
+* **Vote**: allows you to choose "for"<img src="/ext/lib/site/help/icon-like.png" style="display:inline-block" width="20">, "abstain" and "against"<img src="/ext/lib/site/help/icon-dislike.png" style="display:inline-block" width="20">.
+* **Poll**: allows you to choose from a list of options  <img src="/ext/lib/site/help/icon-survey.png" style="display:inline-block" width="20">.
+* **Hierarchy**: allows you to sort a list of options from highest to lowest based on a criterion <img src="/ext/lib/site/help/icon-hierarchy.png" style="display:inline-block" width="20">.
+* **Rank**: allows you to choose from a range <img src="/ext/lib/site/help/icon-range.png" style="display:inline-block" width="30" height="20"> between "I do not agree" and "I am in favor".
 
-Cada **eje** está abierto para participar durante un periodo de tiempo desde la fecha de publicación.
+Once you have already participated, you can share the consultation on your social networks to get more people involved!
 
-### ¿Cómo participo? <a name="participacion"></a>
+### How to set up your profile? <a name="set-your-profile"></a>
 
-Se puede participar realizando comentarios y aportes en el **foro de debate**. Dentro de cada eje publicado, existe un espacio para hacer comentarios sobre las temáticas y expresarse sobre la discusión abierta. Una vez finalizado el tiempo estipulado de la consulta, no se puede seguir participando. 
-
-![Imagen](/ext/lib/site/help/comentarios.png)
-
-También, se pueden **interactuar** con los comentarios de otras personas para debatir puntos de vista o aportar más información, contestando o valorando positiva o negativamente sus argumentos (con el “pulgar arriba” o “pulgar abajo”). Los comentarios se pueden ordenar de acuerdo a su “relevancia” o cronológicamente (“más recientes” o “más antiguos”).
-
-Además se puede participar votando. Cada eje tiene como posibilidad agregar una **acción específica.** Hay cinco tipos de acciones adicionales:
-
- - **Voto**: contiene las opciones “a favor”, “abstención” y “en contra”.
- - **Encuesta**: se presenta un listado de opciones para elegir una de ellas.
- - **Causa**: contiene una opción que permite apoyar la causa presentada en el eje.
- - **Rango**: en base a una pregunta, se posiciona la respuesta en un rango que escala desde “no estoy de acuerdo” hasta “estoy a favor”.
- - **Jerarquía**: de una lista de opciones, esta opción permite ordenarlas de mayor a menor en base a un criterio.
-
-![Imagen](/ext/lib/site/help/accion-voto.png)
-*Ejemplo de una de las acciones*
-
-### ¿Cómo puedo compartir una consulta? <a name="compartir-consulta"></a>
-Bajo el texto de cada propuesta, vas a encontrar las opciones de compartir por Facebook o por Twitter.
-
-![Imagen](/ext/lib/site/help/share-topic.png)
+1. Once registered, your user name will appear on the top right hand side of the screen. 
+2. By clicking on your name, a drop-down menu will appear. 
+3. Under **"Notifications"**, you can set your notification preferences.
+4. Under **"Settings"** you can edit your personal data (first name, last name), change your password and add a profile picture.
+5. To add a profile picture you need to paste the URL of an image. 
+One way to do this is to select a photo from social networks, right click and select "copy image URL".
+Another way is to upload a photo to a server like https://es.imgbb.com/, right click and select "copy image URL".
