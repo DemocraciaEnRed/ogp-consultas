@@ -28,7 +28,7 @@
     flex-direction: column
     flex-wrap: wrap
     padding-top: 1em
-
+    padding-bottom: 20px
     .forums-list-title
       font-size: 35px
       text-align: center
@@ -78,6 +78,7 @@
 
     .bold {
       font-weight: 400
+      text-align: center
     }
 
     .skyblue {
@@ -90,7 +91,7 @@
 
   .section-icons
     font-weight:600
-    margin-top:20px
+    margin-bottom:20px
     @media (max-width: 760px)
       margin-left:6%
     @media (max-width: 460px)
@@ -172,5 +173,40 @@
 .show-more
   height: 50px
 
+.register-btn
+  background-color: $success-color
+  color: white
+  font-weight: 100
+  &:hover
+    color: white !important
+    background-color: $success-color-hover
 
+.participate-now
+  display: block
+  background-color: rgba(247, 152, 29, 0.1)
+  color: $success-color
+  text-align: center
+  font-size: 13px
+  text-transform: uppercase
+  padding: 20px;
+  &:hover
+    background-color: rgba(247, 152, 29, 0.25)
+  span
+    color: $success-color
+    padding: 20px
 
+.steps
+  background-color: rgba(0, 153, 255, 0.1)
+  padding: 20px 0
+
+.icons-title
+  text-align: center
+  font-weight: bold
+  padding: 20px 0
+
+.filter-btn
+  background-color: white
+
+.filter-active
+  color: white
+  background-color: #0099FF

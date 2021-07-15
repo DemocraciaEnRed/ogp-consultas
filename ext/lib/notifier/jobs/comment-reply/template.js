@@ -17,19 +17,19 @@ module.exports = ({
   lang
 }) => emailTemplate({
   body: html`
-    <p>Hola <strong>${userName}</strong>,</p>
-    <p>El usuario <strong>${reply.author.fullName}</strong> respondió un comentario en <strong>${topicTitle}</strong>.</p>
-    <p>Comentario original por <strong>${comment.author.fullName}</strong>:</p>
+    <p>Hello <strong>${userName}</strong>,</p>
+    <p>User <strong>${reply.author.fullName}</strong> replied a coment in <strong>${topicTitle}</strong>.</p>
+    <p>Original comment by <strong>${comment.author.fullName}</strong>:</p>
     <div style='padding:15px;padding-top:10px;border-radius: 5px;'><i>${comment.text}</i></div>
     <br />
-    <p>Respuesta por <strong>${reply.author.fullName}</strong>:</p>
+    <p>Reply by <strong>${reply.author.fullName}</strong>:</p>
     <div style='padding:15px;padding-top:10px;border-radius: 5px;'><i>${reply.text}</i></div>
     <br />
     ${buttonTemplate({
       url: url,
-      text: 'Ver respuesta'
+      text: 'See response'
     })}
-    <p>Saludos,<br /><strong>${config.organizationName}</strong></p>
-    <p style='font-size:12px'><i>Si el botón de "Ver respuesta" no funciona, copiá y pegá el siguiente link en tu navegador: <a href="${url}" target="_blank">${validateUrl}</a></i></p>
+    <p><br /><strong>${config.organizationName}</strong></p>
+    <p style='font-size:12px'><i>If the "See response" button doesnt work, copy and paste this link in your browser: <a href="${url}" target="_blank">${url}</a></i></p>
   `
 })

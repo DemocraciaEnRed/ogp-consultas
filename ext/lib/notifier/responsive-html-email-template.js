@@ -393,7 +393,7 @@ module.exports = ({
                 <table role="presentation" border="0" cellpadding="0" cellspacing="0">
                   <tr>
                     <td class="content-block powered-by">
-                      Hecho con <3 por <a href="https://democraciaenred.org">Democracia en Red</a>
+                      Made with <3 by <a href="https://democraciaenred.org">Democracia en Red</a>
                     </td>
                   </tr>
                 </table>

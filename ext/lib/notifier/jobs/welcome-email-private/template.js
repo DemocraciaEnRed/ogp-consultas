@@ -17,15 +17,15 @@ module.exports = ({
   password
 }) => emailTemplate({
   body: html`
-    <p>Hola <strong>${userName}</strong>,</p>
-    <p>Te damos la bienvenida a <strong>${config.organizationName}</strong>. Han hecho tu registro para que comiences a participar.</p>
-    <p>Para ingresar, accede entrando a la plataforma e ingresando tu dirección de correo (<strong>${userEmail}</strong>) y la siguiente contraseña: <strong>${password}</strong></p>
+    <p>Hello <strong>${userName}</strong>,</p>
+    <p>Welcome to <strong>${config.organizationName}</strong>. you can now participate in the platform</p>
+    <p>You can acces the plataform with: email (<strong>${userEmail}</strong>) and password <strong>${password}</strong></p>
     ${buttonTemplate({
       url: baseUrl,
-      text: 'Entrar a la plataforma'
+      text: 'Access platform'
     })}
-    <p style='font-size:16px'><strong>¡Te pedimos que la primera acción que hagas sea cambiar la contraseña entrando a tu perfil!</strong></p>
-    <p>Muchas gracias, ¡Te esperamos!</p>
-    <p style='font-size:12px'><i>Si el botón de "Entrar a la plataforma" no funciona, copiá y pegá el siguiente link en tu navegador: <a href="${baseUrl}" target="_blank">${baseUrl}</a></i></p>
+    <p style='font-size:16px'><strong>¡Please change the password on your profile!</strong></p>
+    <p>Thank you!</p>
+    <p style='font-size:12px'><i> if "Access platform" doesnt work, copy this link in your browser's search: <a href="${baseUrl}" target="_blank">${baseUrl}</a></i></p>
   `
 })

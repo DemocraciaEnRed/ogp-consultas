@@ -1,68 +1,38 @@
-# Términos y Condiciones
-### Descripción
+# Terms & Conditions
 
-Los siguientes Términos y Condiciones regulan el uso de la Plataforma **[Nombre de la plataforma]** donde se brinda información sobre  **[Intención de la plataforma]**
+[Terms](https://www.opengovpartnership.org/terms-conditions/#terms)
 
-El registro y uso de la plataforma por parte de los usuarios indica la aceptación absoluta de los Términos y Condiciones presentes y de la Política de Privacidad.
+This Agreement describes our understanding with you regarding the use of this website. Please read and review these Terms of Use carefully before accessing or using this website. This agreement has been developed for your protection, as well as ours. By accessing or using this site, you acknowledge that you have read, understood and agreed to this agreement.
+The use of this web site constitutes agreement with the following terms and conditions:
+(a) The Open Government Partnership maintains this web site (the “Site”) as a courtesy to those who may choose to access the Site (“Users”). The information presented herein is for informative purposes only. The Open Government Partnership work is licensed under a [Creative Commons Attribution 4.0 Unported License](https://creativecommons.org/2013/11/25/ccs-next-generation-licenses-welcome-version-4-0/). Material hosted in this site may, however, be covered by individual license as noted in the material or document. Such copyright will supersede the general site license.
+(b) The Open Government Partnership administers this Site. All Material on this Site from the Open Government Partnership appears subject to the present Terms and Conditions.
+(c) Unless expressly stated otherwise, the findings, interpretations and conclusions expressed in the Materials on this Site are those of the various Open Government Partnership staff members, consultants and advisers to the Open Government Partnership who prepared the work and do not necessarily represent the views of the Open Government Partnership or its participating countries.
 
-La plataforma **[Nombre de la plataforma]** es un sitio web que promueve la democracia interna  **[Nombre de la plataforma]**. Esta herramienta favorece la generación de espacios de colaboración para co-diseñar y co-producir valor público.
+[terms](https://www.opengovpartnership.org/terms-conditions/#terms)
 
-## Inscripción en la plataforma web
+### Disclaimers
+Materials provided on this Site are provided “as is”, without warranty of any kind, either express or implied, including, without limitation, warranties of merchantability, fitness for a particular purpose and non-infringement. The Open Government Partnership specifically does not make any warranties or representations as to the accuracy or completeness of any such Materials. The Open Government Partnership periodically adds, changes, improves or updates the Materials on this Site without notice. Under no circumstances shall the Open Government Partnership be liable for any loss, damage, liability or expense incurred or suffered that is claimed to have resulted from the use of this Site, including, without limitation, any fault, error, omission, interruption or delay with respect thereto. The use of this Site is at the User’s sole risk. Under no circumstances, including but not limited to negligence, shall the Open Government Partnership or its affiliates be liable for any direct, indirect, incidental, special or consequential damages, even if the Open Government Partnership has been advised of the possibility of such damages.
+The User specifically acknowledges and agrees that the Open Government Partnership is not liable for any conduct of any User.
+This Site may contain advice, opinions and statements of various information providers. The Open Government Partnership does not represent or endorse the accuracy or reliability of any advice, opinion, statement or other information provided by any information provider, any User of this Site or any other person or entity. Reliance upon any such advice, opinion, statement, or other information shall also be at the User’s own risk. Neither the Open Government Partnership nor its affiliates, nor any of their respective agents, employees, information providers or content providers, shall be liable to any User or anyone else for any inaccuracy, error, omission, interruption, deletion, defect, alteration of or use of any content herein, or for its timeliness or completeness, nor shall they be liable for any failure of performance, computer virus or communication line failure, regardless of cause, or for any damages resulting therefrom.
+As a condition of use of this Site, the User agrees to indemnify the Open Government Partnership and its affiliates from and against any and all actions, claims, losses, damages, liabilities and expenses (including reasonable attorneys’ fees) arising out of the User’s use of this Site, including, without limitation, any claims alleging facts that if true would constitute a breach by the User of these Terms and Conditions. If the User is dissatisfied with any Material on this Site or with any of its Terms and Conditions of Use, the User’s sole and exclusive remedy is to discontinue using the Site.
+This Site may contain links and references to third-party web sites. The linked sites are not under the control of the Open Government Partnership, and the Open Government Partnership is not responsible for the content of any linked site or any link contained in a linked site. The Open Government Partnership provides these links only as a convenience, and the inclusion of a link or reference does not imply the endorsement of the linked site by the Open Government Partnership.
+If this Site contains commenting, bulletin boards, chat rooms, access to mailing lists or other message or communication facilities (collectively, “Forums”), the User agrees to use the Forums only to send and receive messages and materials that are proper and related to the particular Forum. By way of example and not as a limitation, the User agrees that when using a Forum, he or she shall not do any of the following:
+(a) Defame, abuse, harass, stalk, threaten or otherwise violate the legal rights (such as rights of privacy and publicity) of others;
+(b) Publish, post, distribute or disseminate any defamatory, infringing, obscene, indecent or unlawful material or information;
+(c) Upload or attach files that contain software or other material protected by intellectual property laws (or by rights of privacy and publicity) unless the User owns or controls the rights thereto or has received all consents therefor as may be required by law;
+(d) Upload or attach files that contain viruses, corrupted files or any other similar software or programs that may damage the operation of another’s computer;
+(e) Delete any author attributions, legal notices or proprietary designations or labels in any file that is uploaded;
+(f) Falsify the origin or source of software or other material contained in a file that is uploaded;
+(g) Advertise or offer to sell any goods or services, or conduct or forward surveys, contests or chain letters, or download any file posted by another user of a Forum that the User knows, or reasonably should know, cannot be legally distributed in such manner.
+The User acknowledges that all Forums and discussion groups are public and not private communications. Further, the User acknowledges that chats, postings, conferences, e-mails and other communications by other Users are not endorsed by the Open Government Partnership, and that such communications shall not be considered to have been reviewed, screened or approved by the Open Government Partnership. The Open Government Partnership reserves the right to remove, for any reason and without notice, any content of the Forums received from Users, including, without limitation, email and bulletin board postings.
+The boundaries and names shown and the designations used on the maps on this site do not imply official endorsement or acceptance by the Open Government Partnership.
 
-El acceso al Sitio Web es libre y gratuito. Requiere inscripción previa a través de un formulario que deberá ser validado por la administración del sitio. 
+### Preservation of immunities
 
-La información personal suministrada por la/el Usuaria/o al momento de inscribirse en el Sitio Web está protegida con una clave, y sólo podrá ser modificada por el mismo Usuario. El Sitio Web se reserva el derecho de realizar validaciones en relación a la información brindada por el Usuario al momento de la inscripción. En caso de que la información brindada no pueda validarse, el Administrador se reserva el derecho de no dar de alta a ese Usuario. El Sitio Web está destinado únicamente a Usuarios mayores de 16 años cumplidos, de modo que cualquier registro de uso o acceso al Sitio Web por cualquier menor de esa edad no está autorizado. El Usuario garantiza y declara ser mayor de 16 años. Por su parte, el Administrador deslinda su responsabilidad en el caso de no ser veraz la información suministrada al respecto.
+Nothing herein shall constitute or be considered to be a limitation upon or a waiver of the privileges and immunities of the Open Government Partnership, which are specifically reserved.
 
-**Al momento de la inscripción el Usuario asume el compromiso y la responsabilidad de:**
+### General
+The Open Government Partnership reserves its exclusive right in its sole discretion to alter, limit or discontinue the Site or any Materials in any respect. The Open Government Partnership shall have no obligation to take the needs of any User into consideration in connection therewith.
+The Open Government Partnership reserves the right to deny in its sole discretion any user access to this Site or any portion thereof without notice.
+No waiver by the Open Government Partnership of any provision of these Terms and Conditions shall be binding except as set forth in writing and signed by its duly authorized representative.
 
-* No proporcionar información personal falsa ni crear cuentas a nombre de terceros sin su autorización.
-* No crear más de una cuenta personal.
-* No crear otra cuenta sin permiso expreso del Administrador, en caso de que este último haya inhabilitado la cuenta original.
-* Mantener la información de contacto exacta y actualizada.
-* No compartir la contraseña ni permitir a otra persona acceda a su cuenta.
-* El Usuario se compromete a notificar al Administrador ante cualquier uso no autorizado de su clave.
-
-
-**El Administrador se reserva el derecho de rechazar cualquier solicitud de inscripción o de cancelar un registro previamente aceptado.**
-
-## Usuarios, obligaciones y condiciones
-
-El Usuario deberá respetar estos Términos y Condiciones de Uso del Sitio Web. Las infracciones por acción u omisión de los presentes Términos y Condiciones de Uso generarán el derecho a favor del Administrador de suspender al Usuario que las haya realizado.
-
-El Usuario es el único responsable del contenido que suba, publique o muestre en el Sitio Web, garantizando que el mismo no infringe derechos de terceros ni los Términos y Condiciones de Uso ni viola ninguna ley, reglamento u otra normativa. El Usuario entiende y acepta que el material y/o contenido que suba y/o publique podría ser utilizado por otros Usuarios del Sitio Web y/o por terceras personas ajenas, y que el Administrador del Sitio Web no será responsable en ningún caso por tales utilizaciones.
-
-El Usuario se obliga a usar el Sitio Web de conformidad con estos Términos y Condiciones, en forma correcta y lícita. En caso contrario, el Sitio Web podrá retirar el contenido y/o suspender la cuenta del Usuario, por considerarlo: violatorio de estos Términos y Condiciones y/o de la Política de Privacidad de este Sitio Web, ofensivo, ilegal, violatorio de derechos de terceros, contrario a la moral y buenas costumbres y amenaza la seguridad de otros Usuarios.
-
-Sin embargo, esta posibilidad no implica necesariamente que el contenido de toda la información disponible en el Sitio Web haya sido revisado.
-
-El Usuario responderá por los daños y perjuicios de toda naturaleza que el Sitio Web pueda sufrir, directa o indirectamente, como consecuencia del incumplimiento de cualquiera de las cláusulas derivadas de estos Términos y Condiciones de Uso.
-
-El Sitio Web no controla ni garantiza la ausencia de virus u otros softwares de tipo destructivo en el material descargable puesto a disposición por los Usuarios.
-
-En relación a los aportes, colaboraciones, comentarios y votaciones que los Usuarios realicen con respecto a las iniciativas propuestas en el Sitio Web, las mismas NO son de carácter vinculante, obligatorio y/o impositivo sobre el documento final.
-
-La adecuada utilización de todos los recursos de Internet es, sin excepción, de entera responsabilidad del Usuario del Sitio Web. 
-
-## Actividades Prohibidas
-
-Las siguientes actividades, sean lícitas o ilícitas, se encuentran expresamente vedadas, sin perjuicio de las prohibiciones generales expuestas anteriormente:
-
-* Hostigar, acosar, amenazar, acechar, realizar actos de vandalismo hacia otros Usuarios.
-* Infringir los derechos a la intimidad de otros Usuarios.
-* Solicitar información personal identificable de otros Usuarios con el propósito de hostigar, atacar, explotar, violar la intimidad de los mismos;
-* Publicar de manera intencionada o con conocimiento injurias o calumnias;
-* Publicar, con el intento de engañar, contenido que es falso o inexacto;
-* Intentar usurpar la identidad de otro Usuario, representando de manera falsa su afiliación con cualquier individuo o entidad, o utilizar el nombre de otro Usuario con el propósito de engañar;
-* Promover, defender o mostrar pornografía, obscenidad, vulgaridad, blasfemia, odio, fanatismo, racismo y/o violencia. En caso de sufrir alguna de estas situaciones, comunicarse con el Administrador a través de **[Nombre de la plataforma]**
-* Vulnerar los derechos establecidos en la Ley N° 25.326 de Protección de Datos Personales.
-
-
-## Moderación de las iniciativas
-
-Cada iniciativa/propuesta publicada en el Sitio Web tendrá un moderador responsable de hacer cumplir estos Términos y Condiciones de uso. El moderador será designado por el organismo originante de la propuesta.
-
-Fomentamos un diálogo franco y abierto, pero manteniendo el nivel de la discusión, evitando afrentas a personas o instituciones, material comercial no relacionado (SPAM) u otros desvíos de la intención original del Sitio Web. 
-
-## Ley aplicable y jurisdicción del Sitio Web.
-
-Los Términos y Condiciones de Uso aquí presentados se rigen por las leyes de la República Argentina. El Administrador y el Usuario se someten a los Tribunales Nacionales en lo Contencioso Administrativos con asiento en la Ciudad Autónoma de Buenos Aires.

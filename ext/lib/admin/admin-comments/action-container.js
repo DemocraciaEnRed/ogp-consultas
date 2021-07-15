@@ -53,8 +53,8 @@ export default class ActionContainer extends Component {
         <div>
           {
             shrinked ?
-              <h5 className="toggle-title text-primary" onClick={this.toggleShrink}>▼ Mostrar los resultados ▼</h5>
-              : <h5 className="toggle-title text-primary" onClick={this.toggleShrink}>▲ Ocultar los resultados ▲</h5>
+              <h5 className="toggle-title text-primary" onClick={this.toggleShrink}>▼ Show results ▼</h5>
+              : <h5 className="toggle-title text-primary" onClick={this.toggleShrink}>▲ Hide results ▲</h5>
           }
         </div>
       </div>

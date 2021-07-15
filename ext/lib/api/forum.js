@@ -35,9 +35,9 @@ const keys = [
 ].join(' ')
 
 const attrPregunta = {
-  "name" : "pregunta",
-  "title" : "Pregunta a definir con la consulta",
-  "description" : "Colocar aquí la pregunta que será definida en el eje de la consulta",
+  'name' : 'Question', 
+  'title' : 'Question to be defined with the consultation', 
+  'description' : 'Enter here the question that will be defined in the consultation\'s topic.', 
   "mandatory" : true,
   "kind" : "String"
 }

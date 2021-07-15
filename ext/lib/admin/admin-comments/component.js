@@ -160,12 +160,12 @@ export default class AdminComments extends Component {
       <div className="comments-admin">
        <a href={urlBuilder.for('admin.comments.csv', { forum: forum.name })}
             className='btn btn-primary btn-sm'>
-            Comentarios - { t('admin-comments.dowload-as-csv') }
+            Comments - { t('admin-comments.dowload-as-csv') }
           </a>
         {
           isFetching ? 
           <div className="well well-sm">
-            Cargando...
+            loading...
           </div>
           : (
             <div>

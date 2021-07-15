@@ -167,9 +167,9 @@ export default class EditForum extends Component {
               <div className='form-group clearfix contentType'>
                 <select value={contentType} onChange={this.handleChangeExtra('contentType')} placeholder="Elija una opcion">
                   <option value="" disabled>- Elija una opción -</option>
-                  <option value="ejes">Ejes de consulta</option>
-                  <option value="propuestas">Propuestas</option>
-                  <option value="llamado">Convocatoria</option>
+                  <option value="ejes">Topics of the consultation</option>
+                  <option value="propuestas">Proposal</option>
+                  <option value="llamado">Request for proposals</option>
                 </select>
               </div>
             </fieldset>
@@ -208,7 +208,7 @@ export default class EditForum extends Component {
               </div>
             </fieldset>
             <fieldset>
-              <label>Fecha de cierre</label>
+              <label>Ending date</label>
               <div className='form-group clearfix'>
                 <input
                   name='closingAt'
