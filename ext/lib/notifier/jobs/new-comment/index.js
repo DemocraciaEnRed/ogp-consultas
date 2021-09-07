@@ -70,7 +70,7 @@ module.exports = function topicPublished (notifier) {
     log('Enviando mail a %o', to)
     return mailer.send({
       to,
-      subject: `[${config.organizationName}] Nuevo comentario en "${topicTitle}"`,
+      subject: `[${config.organizationName}] New comment in "${topicTitle}"`,
       html
     }).then(() => { done() }).catch(err => {
       log('Error: %o', err)

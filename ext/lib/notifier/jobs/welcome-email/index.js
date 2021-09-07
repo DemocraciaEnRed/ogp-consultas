@@ -3,7 +3,7 @@ const utils = require('democracyos-notifier/lib/utils')
 const template = require('./template')
 
 const jobName = 'welcome-email'
-const subject = `[${config.organizationName}] ¡Validá tu cuenta para comenzar!`
+const subject = `[${config.organizationName}] Validate your account!`
 const log = require('debug')(`democracyos:notifier:${jobName}`)
 
 module.exports = function welcomeEmail (notifier) {
