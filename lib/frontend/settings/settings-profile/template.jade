@@ -272,11 +272,19 @@
           option(value='ZM') Zambia
           option(value='ZW') Zimbabwe
       .form-group
-        label='Department/Area of government'
-        if user.extra && user.extra.area
-          input.form-control(id='area', type='text', name='area', maxlength=200, placeholder='- Enter your department/area -', value='#{user.extra.area}')
-        else 
-          input.form-control(id='area', type='text', name='area', maxlength=200, placeholder='- Enter your department/area -')
+        label='What sector do you represent?'
+        select.form-control(id='area', name='area')
+          option(value=null) - Select your sector -
+          option(value='National government') National government 
+          option(value='Local government') Local government 
+          option(value='Civil society organization - domestic') Civil society organization - domestic 
+          option(value='Civil society organization - international') Civil society organization - international 
+          option(value='Multilateral or other international organization') Multilateral or other international organization 
+          option(value='Academia') Academia 
+          option(value='Private sector') Private sector 
+          option(value='Media/journalist') Media/journalist 
+          option(value='Private citizen') Private citizen 
+          option(value='Other') Other 
       .form-group.profile-picture
         label= t('settings.profile-picture')
         .profile-picture-form
