@@ -4,16 +4,15 @@ import topicStore from 'lib/frontend/stores/topic-store/topic-store'
 import TopicCard from './topic-card/component'
 
 export default class Carrusel extends Component {
-  constructor (props) {
+  constructor(props) {
     super(props)
     this.state = {
       topics: null
     }
     this.flkty = null
-    this.carrousel = React.createRef();
   }
 
-  componentDidMount () {
+  componentDidMount() {
     topicStore.findAll({ forum: this.props.forum.id })
       .then((res) => {
         let topics = res[0]
@@ -23,19 +22,19 @@ export default class Carrusel extends Component {
         if (topics.length > 0) {
           // ordenamos topics por abiertos y cerrados, y por fechas de cierre
           // mismo sort utilizado en home-forum
-          topics = topics.sort((a,b) => {  
+          topics = topics.sort((a, b) => {
             // si uno está abierto y el otro cerrado, ordenar por abierto
             if (a.closed && !b.closed)
               return 1
             if (!a.closed && b.closed)
-              return -1  
+              return -1
             //// si los dos están abiertos o los dos cerrados
             // si los dos tienen fecha de cierre, ordenar por eso
             if (a.closingAt && b.closingAt)
               if (a.closed && b.closed)
-                return new Date(a.closingAt) < new Date(b.closingAt) ? 1 : -1     
-              if (!a.closed && !b.closed)
-                return new Date(a.closingAt) > new Date(b.closingAt) ? 1 : -1    
+                return new Date(a.closingAt) < new Date(b.closingAt) ? 1 : -1
+            if (!a.closed && !b.closed)
+              return new Date(a.closingAt) > new Date(b.closingAt) ? 1 : -1
             // si alguno tiene fecha de cierre, poner último
             if (a.closingAt)
               return 1
@@ -52,7 +51,7 @@ export default class Carrusel extends Component {
       .catch((err) => console.error(err))
   }
 
-  componentDidUpdate () {
+  componentDidUpdate() {
     if (this.flkty) this.flkty.destroy()
     const options = {
       cellAlign: 'left',
@@ -62,23 +61,23 @@ export default class Carrusel extends Component {
       pageDots: false,
       groupCells: window.matchMedia('(min-width: 1024px)').matches ? 3 : 1
     }
-    this.flkty = new Flickity(this.carrusel.current, options)
+    this.flkty = new Flickity(this.refs.carrusel, options)
   }
 
-  componentWillUnmount () {
+  componentWillUnmount() {
     if (this.flkty) this.flkty.destroy()
   }
 
-  render () {
+  render() {
     if (!this.props.forum || !this.state.topics) return null
     return (
       <div className="fondo-titulo">
         {this.props.topic &&
           <h2 className='title'> You can continue to participate</h2>
         }
-        <div className='topics-container' ref={this.carrousel}>
+        <div className='topics-container' ref='carrusel'>
           {this.state.topics && this.state.topics.map((topic) => (
-            <TopicCard key={topic.id} topic={topic}/>
+            <TopicCard key={topic.id} topic={topic} />
           ))}
         </div>
       </div>
