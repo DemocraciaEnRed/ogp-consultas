@@ -11,40 +11,40 @@ import Stats from './stats/component'
 export default class HelpLayout extends PureComponent {
   articles = [
     {
-      title: 'How does it works?',
+      title: 'How does it work?',
       Content: () => <Content content={articles.como} />,
-      slug: 'como-funciona',
-      path: '/ayuda/como-funciona'
+      slug: 'how-does-it-work',
+      path: '/help/how-does-it-work'
     },
     {
       title: 'About this site',
       Content: () => <Content content={articles.acerca} />,
-      slug: 'acerca',
-      path: '/ayuda/acerca'
+      slug: 'about',
+      path: '/help/about'
     },
         {
       title: 'Stadistics',
       Content: Stats,
-      slug: 'estadisticas',
-      path: '/ayuda/estadisticas'
+      slug: 'statistics',
+      path: '/help/statistics'
     },
     {
       title: t('help.tos.title'),
       Content: () => <Content content={articles.tos} />,
-      slug: 'terminos-y-condiciones',
-      path: '/ayuda/terminos-y-condiciones'
+      slug: 'terms-and-conditions',
+      path: '/help/terms-and-conditions'
     },
     {
       title: t('help.pp.title'),
       Content: () => <Content content={articles.pp} />,
-      slug: 'privacidad',
-      path: '/ayuda/privacidad'
+      slug: 'privacy',
+      path: '/help/privacy'
     },
     {
       title: t('help.markdown.title'),
       Content: MarkdownGuide,
       slug: 'markdown',
-      path: '/ayuda/markdown'
+      path: '/help/markdown'
     }
   ]
 
@@ -61,10 +61,10 @@ export default class HelpLayout extends PureComponent {
         <div className='help-container container'>
           <ol className='breadcrumb'>
             <li className='breadcrumb-item'>
-              <Link to='/'>Consultas</Link>
+              <Link to='/'>Consultation</Link>
             </li>
             <li className='breadcrumb-item active'>
-              <Link to='/ayuda'>Ayuda</Link>
+              <Link to='/help'>Help</Link>
             </li>
             <li className='breadcrumb-item active'>
               <span>{active.title}</span>

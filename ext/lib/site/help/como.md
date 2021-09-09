@@ -1,4 +1,4 @@
-# ¿Cómo Funciona?
+# How does it work?
 
 * [How can I create a user?](#create-user)
 * [How is the site structured?](#site-structure)

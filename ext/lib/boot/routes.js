@@ -2,8 +2,8 @@ var urlBuilder = require('lib/backend/url-builder')
 
 module.exports = function () {
   urlBuilder.register('site.topic', '/:forum/consulta/:id')
-  urlBuilder.register('site.help', '/ayuda')
-  urlBuilder.register('site.help.article', '/ayuda/:article')
+  urlBuilder.register('site.help', '/help')
+  urlBuilder.register('site.help.article', '/help/:article')
   urlBuilder.register('site.notifications', '/notificaciones')
 
   urlBuilder.register('settings', '/ajustes')

@@ -36,7 +36,7 @@ testurls(){
  urls=(/ \
   /ajustes /ajustes/administrar /ajustes/perfil /ajustes/contrasena /ajustes/notificaciones /ajustes/user-badges \
   /notificaciones \
-  /ayuda/como-funciona /ayuda/acerca /ayuda/estadisticas /ayuda/terminos-y-condiciones /ayuda/privacidad /ayuda/markdown \
+  /help/how-does-it-work /help/about /help/statistics /help/terms-and-conditions /help/privacy /help/markdown \
   /$aforumname /$aforumname/admin/topics /$aforumname/admin/permissions /$aforumname/admin/edit-forum /$aforumname/admin/tags /$aforumname/admin/comments /$aforumname/admin/tags-moderation
  )
  for u in $urls
