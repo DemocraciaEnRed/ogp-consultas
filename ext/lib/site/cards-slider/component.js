@@ -10,6 +10,7 @@ export default class Carrusel extends Component {
       topics: null
     }
     this.flkty = null
+    this.carrousel = React.createRef();
   }
 
   componentDidMount () {
@@ -61,7 +62,7 @@ export default class Carrusel extends Component {
       pageDots: false,
       groupCells: window.matchMedia('(min-width: 1024px)').matches ? 3 : 1
     }
-    this.flkty = new Flickity(this.refs.carrusel, options)
+    this.flkty = new Flickity(this.carrusel.current, options)
   }
 
   componentWillUnmount () {
@@ -75,7 +76,7 @@ export default class Carrusel extends Component {
         {this.props.topic &&
           <h2 className='title'> You can continue to participate</h2>
         }
-        <div className='topics-container' ref='carrusel'>
+        <div className='topics-container' ref={this.carrousel}>
           {this.state.topics && this.state.topics.map((topic) => (
             <TopicCard key={topic.id} topic={topic}/>
           ))}
