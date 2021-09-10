@@ -56,17 +56,17 @@ export default class Stats extends PureComponent {
     return (
       <div className="stats">
         <div className="forums-total-container clearfix">
-          <div className="data-title text-center">Total of consultations</div>
+          <div className="data-title text-center">Number of consultations</div>
           <div className="data-value text-center">{this.state.countForums}</div>
         </div>
         <br/>
         <div className="row">
           <div className="col-md-6">
-          <h4 className="subtitle text-center">Total of topics</h4>
+          <h4 className="subtitle text-center">Number of topics</h4>
           <h2 className="text-center text-primary">{this.state.countTopics}</h2>
           </div>
                     <div className="col-md-6">
-          <h4 className="subtitle text-center">Total comments</h4>
+          <h4 className="subtitle text-center">Number of comments</h4>
           <h2 className="text-center text-primary">{this.state.totalComments}</h2>
           </div>
         </div>
@@ -76,7 +76,7 @@ export default class Stats extends PureComponent {
           <h2 className="text-center text-primary">{this.state.totalWithOfficialReply}</h2>
           </div>
           <div className="col-md-6">
-          <h4 className="subtitle text-center">Amount of<br></br>participants</h4>
+          <h4 className="subtitle text-center">Number of<br></br>participants</h4>
           <h2 className="text-center text-primary">{this.state.uniqueParticipants}</h2>
           </div>
         </div>

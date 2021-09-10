@@ -1,4 +1,4 @@
-### Privacy Policy 
+# Privacy Policy 
 
 [Policies](https://www.opengovpartnership.org/terms-conditions/#privacy)
 Open Government Partnership (OGP) is committed to ensuring the privacy of all our users. When you visit OGP’s websites (http://www.opengovpartnership.org, opengovweek.org and ogpsummit.org), including all information and materials contained on it, we might collect information about you. So we have developed this privacy policy to help you understand how we collect and use any information about you. This policy governs all pages on the OGP Website. It does not apply to pages hosted by other organizations, or other third party sites.

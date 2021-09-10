@@ -8,7 +8,15 @@ This tool was designed by Democracia en Red, an Argentine organization founded i
 
 **Open Government Partnership**
 
-**Mail:** info@opengovpartnership.org
+**By mail**
+
+Open Government Partnership<br>
+1100 13th Street, NW, Suite 800<br>
+Washington, DC 20005
+
+**By Email:** 
+
+info@opengovpartnership.org
 
 **Social Media:**
 
@@ -20,7 +28,7 @@ This tool was designed by Democracia en Red, an Argentine organization founded i
 
 **Email:** [it@democracyos.org](mailto:it@democracyos.org)
 ​
-## Tecnology
+## Technology
 
 This consultation platform is based on technology developed by DemocraciaOS, run by Democracia en Red.
 

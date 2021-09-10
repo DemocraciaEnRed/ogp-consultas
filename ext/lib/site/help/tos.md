@@ -1,6 +1,6 @@
-# Terms & Conditions
+# Terms and Conditions
 
-[Terms](https://www.opengovpartnership.org/terms-conditions/#terms)
+[OGP Terms and Conditions](https://www.opengovpartnership.org/terms-conditions/#terms)
 
 This Agreement describes our understanding with you regarding the use of this website. Please read and review these Terms of Use carefully before accessing or using this website. This agreement has been developed for your protection, as well as ours. By accessing or using this site, you acknowledge that you have read, understood and agreed to this agreement.
 The use of this web site constitutes agreement with the following terms and conditions:
@@ -8,9 +8,9 @@ The use of this web site constitutes agreement with the following terms and cond
 (b) The Open Government Partnership administers this Site. All Material on this Site from the Open Government Partnership appears subject to the present Terms and Conditions.
 (c) Unless expressly stated otherwise, the findings, interpretations and conclusions expressed in the Materials on this Site are those of the various Open Government Partnership staff members, consultants and advisers to the Open Government Partnership who prepared the work and do not necessarily represent the views of the Open Government Partnership or its participating countries.
 
-[terms](https://www.opengovpartnership.org/terms-conditions/#terms)
 
 ### Disclaimers
+
 Materials provided on this Site are provided “as is”, without warranty of any kind, either express or implied, including, without limitation, warranties of merchantability, fitness for a particular purpose and non-infringement. The Open Government Partnership specifically does not make any warranties or representations as to the accuracy or completeness of any such Materials. The Open Government Partnership periodically adds, changes, improves or updates the Materials on this Site without notice. Under no circumstances shall the Open Government Partnership be liable for any loss, damage, liability or expense incurred or suffered that is claimed to have resulted from the use of this Site, including, without limitation, any fault, error, omission, interruption or delay with respect thereto. The use of this Site is at the User’s sole risk. Under no circumstances, including but not limited to negligence, shall the Open Government Partnership or its affiliates be liable for any direct, indirect, incidental, special or consequential damages, even if the Open Government Partnership has been advised of the possibility of such damages.
 The User specifically acknowledges and agrees that the Open Government Partnership is not liable for any conduct of any User.
 This Site may contain advice, opinions and statements of various information providers. The Open Government Partnership does not represent or endorse the accuracy or reliability of any advice, opinion, statement or other information provided by any information provider, any User of this Site or any other person or entity. Reliance upon any such advice, opinion, statement, or other information shall also be at the User’s own risk. Neither the Open Government Partnership nor its affiliates, nor any of their respective agents, employees, information providers or content providers, shall be liable to any User or anyone else for any inaccuracy, error, omission, interruption, deletion, defect, alteration of or use of any content herein, or for its timeliness or completeness, nor shall they be liable for any failure of performance, computer virus or communication line failure, regardless of cause, or for any damages resulting therefrom.
