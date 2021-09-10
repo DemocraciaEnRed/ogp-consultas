@@ -61,12 +61,19 @@ export class SignIn extends Component {
   render () {
     let registerLink = (
       <div className='form-group'>
-        <div className='signup'>
-          <span>{t('signin.dont-have-account')}</span>
-          <Link
+        <div className='signup text-center'>
+          <p style={{textAlign: 'center'}}>
+            <b>Do you want to be a part of OGP Participation and Co-Creation Standards?</b>
+          </p>
+          {/* <span>{t('signin.dont-have-account')}</span> */}
+          
+          {/* <h5><Link
             to='/signup'
             tabIndex={5}>
             {t('signin.action.signup')}
+          </Link></h5> */}
+          <Link to='/signup' tabIndex={5} className='btn btn-block btn-primary'>
+          {t('signin.action.signup')}&nbsp;&nbsp;&nbsp;➡️
           </Link>
         </div>
       </div>
@@ -122,15 +129,18 @@ export class SignIn extends Component {
             maxLength='200'
             required />
         </div>
-        { config.allowPublicSignUp && registerLink }
-        <div className='form-group' />
         {!this.state.loading && (
+          <div className='form-group' style={{marginBottom: '10px'}}>
           <button
-            className='btn btn-block btn-primary'
-            type='submit'>
+          className='btn btn-primary btn-block'
+          type='submit'>
             {t('signin.login')}
           </button>
+        </div>
         )}
+              <hr />
+
+        { config.allowPublicSignUp && registerLink }
         {this.state.loading && (
           <button
             className='loader-btn btn btn-block btn-default'

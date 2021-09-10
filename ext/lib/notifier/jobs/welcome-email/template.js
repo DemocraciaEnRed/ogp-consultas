@@ -16,14 +16,14 @@ module.exports = ({
   validateUrl
 }) => emailTemplate({
   body: html`
-    <p>Hello <strong>${userName}</strong>,</p>
-    <p>You started a registration proccess in <strong>${config.organizationName}</strong>. validate your user and finish registration here:</p>
+    <p>Hi <strong>${userName}</strong>,</p>
+    <p>Your request to register to participate in <strong>${config.organizationName}</strong> has been received. Click on the link below to verify your account in order to comment on the Standards:</p>
     ${buttonTemplate({
       url: validateUrl,
-      text: 'Validate account'
+      text: 'Verify my account'
     })}
-    <p>Thank you!</p>
-    <p style='font-size:12px'><i>if the "Validate account" button doesnt work, copy and paste the validation url in a new browser tab: <a href="${validateUrl}" target="_blank">${validateUrl}</a></i></p>
-    <p style='font-size:12px'><i>PD: If you didnt create an account in <a href="${baseUrl}" target="_blank">${baseUrl}</a>. this action is not required.</i></p>
+    <p>Thank you, we look forward to your input!</p>
+    <p style='font-size:12px'><i>If the button “verify my account” is not working, please copy and paste the following link in your browser: <a href="${validateUrl}" target="_blank">${validateUrl}</a></i></p>
+    <p style='font-size:12px'><i>N.b. If you have not created an account at <a href="${baseUrl}" target="_blank">${baseUrl}</a>, no further action is needed.</i></p>
   `
 })

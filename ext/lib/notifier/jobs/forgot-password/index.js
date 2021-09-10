@@ -5,7 +5,7 @@ const utils = require('democracyos-notifier/lib/utils')
 const template = require('./template')
 
 const jobName = 'forgot-password'
-const subject = `[${config.organizationName}] Recover password`
+const subject = `[${config.organizationName}] Change your password`
 
 module.exports = function forgotPassword (notifier) {
   const { db, agenda, mailer } = notifier

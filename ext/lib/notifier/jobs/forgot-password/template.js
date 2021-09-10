@@ -17,13 +17,13 @@ module.exports = ({
 }) => emailTemplate({
   body: html`
     <p>Hello <strong>${userName}</strong>,</p>
-    <p>We received a password change request. click here to finish the proccess:</p>
+    <p>We received a password change request. Click here to finish the process:</p>
     ${buttonTemplate({
       url: resetPasswordUrl,
       text: 'Reset password'
     })}
     <p><br /><strong>${config.organizationName}</strong></p>
-    <p style='font-size:12px'><i>PD: If you didnt request a password change ignore this email.</i></p>
-    <p style='font-size:12px'><i>if the "Reset password" doesnt work, copy and paste this address in your browser <a href="${resetPasswordUrl}" target="_blank">${resetPasswordUrl}</a></i></p>
+    <p style='font-size:12px'><i>PD: If you didn't request a password change, ignore this email</i></p>
+    <p style='font-size:12px'><i>Iif the "Reset password" doesn't work, copy and paste this address in your browser <a href="${resetPasswordUrl}" target="_blank">${resetPasswordUrl}</a></i></p>
   `
 })
