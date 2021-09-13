@@ -63,7 +63,7 @@ export class SignIn extends Component {
       <div className='form-group'>
         <div className='signup text-center'>
           <p style={{textAlign: 'center'}}>
-            <b>Do you want to be a part of OGP Participation and Co-Creation Standards?</b>
+            <b>Do you want to contribute to the OGP Participation and Co-Creation Standards</b>
           </p>
           {/* <span>{t('signin.dont-have-account')}</span> */}
           
