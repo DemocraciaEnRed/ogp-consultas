@@ -1,12 +1,12 @@
 # Help / FAQ
 
-* [Who can participate](#who-can-participate)
+* [Who can participate?](#who-can-participate)
 * [How do I sign up?](#create-user)
 * [How is the site structured?](#site-structure)
 * [How do I participate?](#how-to-participate)
-* [How do I set up my profile](#set-your-profile)
+* [How do I set up my profile?](#set-your-profile)
 
-### Who can participate <a name="who-can-participate"></a>
+### Who can participate? <a name="who-can-participate"></a>
 
 Any interested individual is welcome to review the proposed revised Participation & Co-Creation Standards (“Standards”). If you wish to leave a comment or interact with the platform you must [Sign up](/signup)).
 
@@ -41,9 +41,9 @@ Once you’ve participated, you can share the consultation on your social media 
 2. By clicking on your name, a drop-down menu will appear.
 3. Under "Notifications", you can set your notification preferences.
 4. Under "Settings" you can edit your personal data (first name, last name), change your password and add a profile picture.
-5. To add a profile picture you need to paste the URL of an image. One way to do this is to select a photo from social networks, right click and select "copy image URL". Another way is to upload a photo to a server like https://imgbb.com/, right click and select "copy image URL".
+5. To add a profile picture you need to paste the URL of an image. One way to do this is to select a photo from social networks, right click and select "copy image URL". Another way is to upload a photo to a server like [https://imgbb.com/](https://imgbb.com/), right click and select "copy image URL".
 
 To add a profile picture you need to paste the URL of an image. One way to do this is to select a photo from social networks, right click and select "copy image URL".
 
-Another way is to upload a photo to a server like [https://imgbb.com/](https://es.imgbb.com/), right click and select "copy image URL".
+Another way is to upload a photo to a server like [https://imgbb.com/](https://imgbb.com/), right click and select "copy image URL".
 

@@ -39,13 +39,13 @@ export default class HelpLayout extends PureComponent {
       Content: () => <Content content={articles.pp} />,
       slug: 'privacy',
       path: '/help/privacy'
-    },
-    {
-      title: t('help.background.title'),
-      Content: () => <Content content={articles.background} />,
-      slug: 'background',
-      path: '/help/background'
-    },
+    }
+    // {
+    //   title: t('help.background.title'),
+    //   Content: () => <Content content={articles.background} />,
+    //   slug: 'background',
+    //   path: '/help/background'
+    // },
     // {
     //   title: t('help.markdown.title'),
     //   Content: MarkdownGuide,
