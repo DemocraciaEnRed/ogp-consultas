@@ -22,7 +22,7 @@ export default ({ topic }) => {
           <i className='icon-clock' />
           <span className='time-ago-label'>
             {(topic.closed ? t('common.closed') : t('common.close')) + ' '}
-          </span>
+          </span> on&nbsp;
           <Timeago className='meta-timeago' date={topic.closingAt} />
         </p>
       }
