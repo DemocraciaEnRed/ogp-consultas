@@ -116,7 +116,7 @@ export default class TopicTable extends Component {
         <div className="topic-name-container">
           <h5 className="topic-subtitle">Eje de la consulta</h5>
           <a
-            href={`/${forum.name}/consulta/${topic.id}`}
+            href={`/${forum.name}/topic/${topic.id}`}
           >
             <h4 className="topic-title">{topic.mediaTitle}</h4>
           </a>

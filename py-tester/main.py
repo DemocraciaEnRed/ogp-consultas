@@ -76,7 +76,7 @@ class Tests:
 		
 	@staticmethod
 	def ir_a_eje(consulta_nombre, eje_id):
-		driver.get(f'{main_page}{consulta_nombre}/consulta/{eje_id}')
+		driver.get(f'{main_page}{consulta_nombre}/topic/{eje_id}')
 		
 	@staticmethod
 	def ayuda():
